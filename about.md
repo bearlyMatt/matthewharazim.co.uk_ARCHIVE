@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+author: matt
 ---
 
 ## who am i?
@@ -17,4 +18,4 @@ You can find me online:
 
 <hr>
 
-![Zephyr](/home/admin/hyde/_assets/zeph00.jpg "Zephyr")
+<img src="/home/admin/hyde/_assets/zeph00.jpg" alt="Zephyr">
