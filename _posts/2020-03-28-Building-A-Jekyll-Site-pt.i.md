@@ -5,7 +5,7 @@ author: matt
 categories: [amateurCoder, tutorial, nerd]
 tags: [raspi, raspberrypi, coding, website, hosting, programming]
 ---
-# lets begin
+# let's begin
 So to start off, I want to make it very clear: I've had a lot of free time with the delightful social distancing from the Coronavirus (COVID-19) and decided to mess around with WSL, Raspberry Pi and the internet. I still have little to no real idea how to delve deep into the configurations for Jekyll, Apache and Raspi... **yet**. My biggest trouble was actually hosting Jekyll on my Apache server, but I'm getting ahead of myself (more on that later).
 
 ## disclaimer
@@ -19,7 +19,7 @@ A lot of this information is regurgitated and repurposed from the already easy-t
 * ruby
 * jekyll
 <br>
-So, lets assume you already have hardware ready to go, if not and you're using a Raspi (any model), the single greatest resource I have found for frankensteining a server out of it can be found at <a href="https://habilisbest.com/category/Raspberry Pi">Habilis Best</a> and follow the secure personal server tutorials. Even if you have no desire to deploy your server to the internet, HB shows lots of tips and tricks to make sure you're the only person who can authorise any form of elevated functions. The man is a hero. After all your `sudo apt-get update` and `sudo apt-get upgrade`'s that you might be performing (of course I'm using debian as my server distro) I tend to start with a clean install of ruby. I envoke `sudo apt-get install ruby-full build-essential` and the wait for the full installation.
+So, lets assume you already have hardware ready to go, if not and you're using a Raspi (any model), the single greatest resource I have found for frankensteining a server out of it can be found at <a href="https://habilisbest.com/category/Raspberry Pi">Habilis Best</a> and follow the secure personal server tutorials. Even if you have no desire to deploy your server to the internet, HB shows lots of tips and tricks to make sure you're the only person who can authorise any form of elevated functions. The man is a hero. After all your `sudo apt-get update` and `sudo apt-get upgrade`s that you might be performing (of course I'm using debian as my server distro) I tend to start with a clean install of ruby. I envoke `sudo apt-get install ruby-full build-essential` and the wait for the full installation.
 
 Once Ruby has installed, you can check the other pre-requisites *GCC* and *Make*, which you can run `gcc -v`/`g++ -v` and `make -v` to see what version you are running (or to check whether you have it installed). If anything comes up as being unrecognised, or not installed, a simple run of `sudo apt-get install [gcc]/[make]/[any other package] -y` will automatically download and install the latest version.
 
