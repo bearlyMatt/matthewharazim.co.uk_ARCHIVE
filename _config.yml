@@ -1,26 +1,34 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Matthew Harazim
+tagline:          'Ambient Awesomeness & Gaming Greatness'
+description:      'soundDesigner// audioEngineer// producer// <a href="https://www.bearsoundstudio.com">smallBusinessOwner</a>// amateurCoder// nerd// gamer// dungeonMaster//'
+url:              http://www.matthewharazim.co.uk
 baseurl:          /
+destination: /var/www/html/
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Matt Harazim'
+  url:            
 
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+version:          1.0.0
 
 github:
   repo:           https://github.com/poole/hyde
+
+# Plugins
+plugins:
+ - jekyll-paginate
+ - jekyll-sitemap
+ - jekyll-seo-tag
+ - jekyll-feed
