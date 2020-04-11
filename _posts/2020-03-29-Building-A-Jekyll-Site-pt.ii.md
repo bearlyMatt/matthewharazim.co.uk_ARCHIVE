@@ -25,4 +25,13 @@ Breaking this down, we can see that in the
 * _Posts_ is just what it sounds like; a diretory for blog _Posts_.
 * _Public_ is a little different, some people use it instead of an _ _Asset_ directory. The reason I have it is due to the use of the <a href="https://github.com/poole/hyde">Hyde</a> theme, which holds all its .css files.
 
-Let's start our website by creating our first page in the _web root_ directory: `nano hello.md`. Jekyll magically transforms markdown into html, so you can use either .md or .html file extensions. The single most important part of any Jekyll document is the front matter 
+Let's start our website by creating our first page in the _web root_ directory: `nano hello.md`. Jekyll magically transforms markdown into html, so you can use either .md or .html file extensions.
+
+The single most important part of any Jekyll document is the front matter, which must contain a section delineated by `---` at the beginning and the end. In this section we can get Jekyll to utilise specific layouts, such as those for pages or blog posts, apply metadata such as author, title, and any categories or tags for searching purposes. So if we added this to our `hello.md` page it would look something like<br>
+`---
+layout: page
+author: matt
+title: Hello
+category: pages
+tags: about, hello
+---`
