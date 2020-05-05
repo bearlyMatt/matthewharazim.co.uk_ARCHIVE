@@ -11,4 +11,4 @@ Over the past year, I decided to invest in a password manager - Remembear to be 
 
 [^b5831a34]: Did you get my delightful _Firefly_ reference?
 
-For our Pi (or general Linux) server, getting an SSH key is actually quite simple - I was merely being thick. 
+For our Pi (or general Linux) server, getting an SSH key is actually quite simple - I was merely being thick.
