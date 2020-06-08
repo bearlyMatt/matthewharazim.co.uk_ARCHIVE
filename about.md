@@ -18,4 +18,4 @@ You can find me online:
 
 <hr>
 
-<img src="/home/admin/hyde/_assets/zeph00.jpg" alt="Zephyr">
+<img src="~/jekyll/matthewharazim.co.uk/_assets/zeph00.jpg" alt="Zephyr">
